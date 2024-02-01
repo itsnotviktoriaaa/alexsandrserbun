@@ -37,6 +37,7 @@ h1, h2 {
 
 body {
     color: #FFFFFF;
+    overflow-x: hidden;
 }
 
 .container {
@@ -310,6 +311,7 @@ h1 {
     background-image: url("../images/common-background-starts.png");
     background-size: cover;
     background-repeat: repeat;
+    position: relative;
 }
 
 .list-events-continue {
@@ -650,4 +652,10 @@ footer {
 
 .political a:hover {
     color: #bebebe;
+}
+
+.micro-big {
+    position: absolute;
+    right: -2px;
+    top: -481px;
 }
