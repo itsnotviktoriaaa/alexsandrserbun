@@ -1,0 +1,536 @@
+@font-face {
+    font-family: "MuseoSansCyrl500";
+    src: url("../fonts/MuseoSansCyrl500.ttf");
+}
+
+@font-face {
+    font-family: "Marianna";
+    src: url("../fonts/Marianna.ttf");
+}
+
+@font-face {
+    font-family: "Cinematografica";
+    src: url("../fonts/CinematograficaRegular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Cinematografica";
+    src: url("../fonts/CinematograficaBold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "AttackTypeRegular";
+    src: url("../fonts/AttackType-Regular.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-weight: unset;
+}
+
+body {
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.wrapper-back {
+    background-image: url("../images/main-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 60px;
+}
+
+.logo a img {
+    width: 100%;
+}
+
+.header-contacts {
+    font-family: "MuseoSansCyrl500", sans-serif;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    text-align: right;
+}
+
+.header-phone {
+    display: flex;
+    column-gap: 8px;
+}
+
+.header-phone__number a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header-social-sites {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-social-site {
+    max-width: 24px;
+}
+
+.header-social-site a img {
+    width: 100%;
+}
+
+.main {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 140px;
+    position: relative;
+}
+
+.host-event-text {
+    font-family: 'Marianna', sans-serif;
+    font-size: 50px;
+    transform: rotate(-3deg);
+    margin-bottom: 25px;
+}
+
+.linear-gradient {
+    background: linear-gradient(137.95deg, #7A96AC 2.28%, #EAEFF3 19.8%, #C2D4E1 32.94%, #FFFFFF 50.16%, #D4DEE5 62.15%, #ABBDC8 78.69%, #BCCAD7 95.24%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    font-family: "Cinematografica", sans-serif;
+    font-style: normal;
+    font-size: 170px;
+    line-height: 125px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.alexandr {
+    margin-right: 126px;
+}
+
+.main-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-descriptions {
+    display: flex;
+    flex-direction: column;
+    max-width: 228px;
+    row-gap: 19px;
+    font-family: "MuseoSansCyrl500", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.basic-hashtag {
+    font-family: "Cinematografica", sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.hashtag-036 {
+    opacity: 0.36;
+}
+
+.hashtag-03 {
+    opacity: 0.3;
+}
+
+.hashtag-025 {
+    opacity: 0.25;
+}
+
+.hashtag-018 {
+    opacity: 0.18;
+}
+
+.hashtag-01 {
+    opacity: 0.1;
+}
+
+.hashtag-45fs {
+    font-size: 45px;
+}
+
+.hashtag-40fs {
+    font-size: 40px;
+}
+
+.hashtag-25fs {
+    font-size: 25px;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.main-advantages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+    margin-bottom: 58px;
+    z-index: 2;
+}
+
+.main-advantage {
+    width: 230px;
+    height: 115px;
+    text-align: center;
+    background: #000102;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-advantage-number {
+    font-family: "MuseoSansCyrl500", sans-serif;
+    font-size: 28px;
+}
+
+.main-advantage-text {
+    width: 143px;
+    font-family: "MuseoSansCyrl500", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.hashtags {
+    width: 280px;
+}
+
+.action-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.action a {
+    text-decoration: none;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 60px;
+    width: 334px;
+    height: 133px;
+    background: linear-gradient(137.95deg, #7A96AC 2.28%, #EAEFF3 19.8%, #C2D4E1 32.94%, #E6F4FF 50.16%, #D4DEE5 62.15%, #ABBDC8 78.69%, #BCCAD7 95.24%);
+    box-shadow: -2px 20px 39px rgba(2, 15, 64, 0.8);
+    border-radius: 10px;
+    font-family: "Cinematografica", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 33px;
+    color: #28275E;
+    border: 0;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+    box-shadow: -2px 20px 39px rgba(172, 190, 253, 0.8);
+}
+
+.as-event-host {
+    max-width: 606px;
+    position: absolute;
+    top: -127px;
+    left: calc(50% - 308px);
+}
+
+.as-event-host img {
+    width: 100%;
+}
+
+.list-events {
+    padding-bottom: 38px;
+}
+
+.title-h2 {
+    text-align: center;
+    font-family: "Cinematografica", sans-serif;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 66px;
+    margin-bottom: 30px;
+}
+
+.list-events-description {
+    max-width: 774px;
+    font-family: "MuseoSansCyrl500", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin: 0 auto;
+}
+
+.common-background {
+    background-image: url("../images/common-background-starts.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.list-events-continue {
+    padding-top: 41px;
+    padding-bottom: 140px;
+}
+
+.event-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.event-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+}
+
+.event-item-title {
+    font-family: "Cinematografica", sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.etc {
+    text-align: right;
+    font-family: "MuseoSansCyrl500", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.reasons {
+    padding-bottom: 240px;
+}
+
+.reasons .container {
+    max-width: 1240px;
+    margin: 0 auto;
+    background-image: url("../images/reasons-background.png");
+    padding: 47px 60px 138px;
+    border-radius: 105px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.reasons .title-h2 {
+    max-width: 661px;
+    margin: 0 auto 68px auto;
+}
+
+.title-h2 span {
+    font-family: "AttackTypeRegular", sans-serif;
+    font-size: 90px;
+    line-height: 108px;
+}
+
+.list-reasons-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.list-reason-item {
+    width: 377px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.list-reason {
+    width: 100%;
+    padding: 26px 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(100.68deg, #0063FF 24.77%, rgba(1, 60, 152, 0.57) 117.43%);
+    border-radius: 40px;
+    font-family: "MuseoSansCyrl500", sans-serif;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.list-reason::before {
+    content: url("../images/done-icon.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(137.95deg, #7A96AC 2.28%, #EAEFF3 19.8%, #C2D4E1 32.94%, #FFFFFF 50.16%, #D4DEE5 62.15%, #ABBDC8 78.69%, #BCCAD7 95.24%);
+    border-radius: 50%;
+    left: calc(1px - 19px);
+}
+
+.list-reason-text {
+    max-width: 240px;
+}
+
+.light {
+    position: absolute;
+}
+
+.light-left {
+    bottom: -40px;
+    left: -7px;
+}
+
+.light-right {
+    bottom: -40px;
+    right: -7px;
+}
+
+.serbun-reasons {
+    max-width: 633px;
+    position: absolute;
+    bottom: -5px;
+    transform: translateX(-59%);
+    left: 50%;
+}
+
+.serbun-reasons img{
+    width: 100%;
+}
+
+.commercial {
+    padding-bottom: 140px;
+}
+
+.commercial .title-h2 {
+    margin-bottom: 60px;
+}
+
+.commercial-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 80px;
+    row-gap: 40px;
+    margin-bottom: 60px;
+}
+
+.commercial-item {
+    width: 400px;
+    height: 280px;
+    background: #FFFFFF;
+    border-radius: 60px;
+    color: #000000;
+    padding: 30px 49px 47px 49px;
+    position: relative;
+}
+
+.commercial-item-title {
+    text-align: center;
+    font-family: "Cinematografica", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    background: linear-gradient(100.68deg, #0063FF 24.77%, #013C98 117.43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 16px;
+}
+
+.commercial-item-description {
+    width: 271px;
+    font-family: "MuseoSansCyrl500", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-left: 31px;
+}
+
+.commercial .action {
+    display: flex;
+    justify-content: center;
+}
+
+.commercial-item-number {
+    position: absolute;
+    width: 107px;
+    height: 170px;
+    background: linear-gradient(100.68deg, #0063FF 24.77%, #013C98 117.43%);
+    box-shadow: inset 1px 5px 8.1px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    top: calc(1px + 58px);
+    left: calc(1px - 53px);
+    padding-top: 16px;
+    padding-left: 17px;
+    font-family: "AttackTypeRegular", sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.commercial-item:first-child .commercial-item-number span:last-child {
+    position: absolute;
+    bottom: -42px;
+    right: -8px;
+}
+
+.commercial-item:nth-child(2) .commercial-item-number span:last-child {
+    position: absolute;
+    bottom: -34px;
+    right: -55px;
+}
+
+.commercial-item:nth-child(3) .commercial-item-number span:last-child {
+    position: absolute;
+    bottom: -28px;
+    right: -16px;
+}
+
+.commercial-item:last-child .commercial-item-number span:last-child {
+    position: absolute;
+    bottom: -72px;
+    right: -51px;
+}
