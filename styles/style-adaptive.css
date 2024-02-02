@@ -265,9 +265,17 @@
     }
 
     .as-event-host {
-        position: unset;
+        position: relative;
         margin: 0 auto -8px auto;
         transform: unset;
+        left: unset;
+        top: unset;
+        z-index: 2;
+    }
+
+    .action-items {
+        position: relative;
+        z-index: 3;
     }
 
     .micro-big {
