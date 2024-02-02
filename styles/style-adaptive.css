@@ -225,13 +225,25 @@
 
 @media screen and (max-width: 785px) {
 
+    .wrapper-back {
+        background-image: url("../images/main-background-adaptive.png");
+    }
+
+    .comp {
+        display: none;
+    }
+
+    .adapt {
+        display: block;
+    }
+
     .basic-hashtag {
         display: none;
     }
 
     h1 {
         font-size: 155px;
-        margin-bottom: -65px;
+        margin-bottom: 30px;
     }
 
     .alexandr {
@@ -558,6 +570,23 @@
 
 @media screen and (max-width: 488px) {
 
+    .main-micro {
+        display: block;
+        position: absolute;
+        top: 218px;
+        left: -51px;
+        z-index: 1;
+    }
+
+    .as-event-host {
+        margin: 0 auto -34px auto;
+    }
+
+    .as-event-host img {
+        position: relative;
+        z-index: 2;
+    }
+
     .commercial-items {
         align-items: flex-end;
     }
@@ -565,6 +594,14 @@
     .commercial-item {
         width: 84%;
         padding: 30px 16px 40px 28px;
+    }
+
+}
+
+@media screen and (max-width: 471px) {
+
+    .header {
+        margin-bottom: 40px;
     }
 
 }
@@ -618,6 +655,14 @@
 
 }
 
+@media screen and (max-width: 387px) {
+
+    .main-micro {
+        max-width: 170px;
+    }
+
+}
+
 @media screen and (max-width: 385px) {
 
     .host-event-text {
@@ -652,6 +697,14 @@
 
     .title-h2, .title-h2 span {
         font-size: 58px;
+    }
+
+}
+
+@media screen and (max-width: 352px) {
+
+    .main-micro {
+        top: 162px;
     }
 
 }

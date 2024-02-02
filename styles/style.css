@@ -704,3 +704,16 @@ footer {
 .main-items-adaptive {
     display: none;
 }
+
+.main-micro {
+    max-width: 240px;
+    display: none;
+}
+
+.main-micro img {
+    width: 100%;
+}
+
+.adapt {
+    display: none;
+}
