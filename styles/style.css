@@ -334,6 +334,17 @@ h1 {
     align-items: center;
 }
 
+.event-item:last-child {
+    position: relative;
+}
+
+.event-item:last-child::after {
+    content: url("../images/VIP.png");
+    position: absolute;
+    bottom: -47px;
+    right: -26px;
+}
+
 .event-item-title {
     font-family: "Cinematografica", sans-serif;
     font-weight: normal;
@@ -680,4 +691,16 @@ footer {
 
 .micro-big img {
     width: 100%;
+}
+
+.call-adaptive {
+    display: none;
+}
+
+.list-events-adaptive {
+    display: none;
+}
+
+.main-items-adaptive {
+    display: none;
 }

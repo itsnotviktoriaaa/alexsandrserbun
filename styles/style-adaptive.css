@@ -2,7 +2,7 @@
 
     .micro-big {
         max-width: 230px;
-        right: -2px;
+        right: 0;
         top: -252px;
     }
 
@@ -367,13 +367,166 @@
         font-size: 105px;
     }
 
+    .list-events {
+        display: none;
+    }
+
+    .list-events-adaptive {
+        display: block;
+    }
+
+    .main {
+        padding-bottom: 0;
+    }
+
+    .main-items {
+        display: none;
+    }
+
+    .main-descriptions {
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .main-advantages {
+        margin-bottom: 0;
+        position: relative;
+        bottom: -58px;
+        margin-top: 46px;
+    }
+
+    .main-items-adaptive {
+        display: block;
+        padding-top: 150px;
+        margin-bottom: 96px;
+    }
+
+    .list-events-continue {
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+
+    .list-events-description {
+        font-size: 15px;
+    }
+
     .host-event-text {
         text-align: center;
+    }
+
+    .reasons .container {
+        border-radius: 45px;
     }
 
     .trust-item {
         width: 188px;
         height: 145px;
+    }
+
+    .reasons {
+        padding-bottom: 80px;
+    }
+
+    .commercial .title-h2 {
+        margin-bottom: 50px;
+    }
+
+    .commercial {
+        padding-bottom: 90px;
+    }
+
+    .trust {
+        padding-bottom: 80px;
+    }
+
+    .trust .title-h2 {
+        margin-bottom: 33px;
+    }
+
+    .contact-text {
+        font-size: 15px;
+    }
+
+    .micro-big {
+        max-width: 131px;
+        top: 176px;
+    }
+
+}
+
+@media screen and (max-width: 511px) {
+
+    .commercial-item-description {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .commercial-item-number {
+       width: 85px;
+        height: 136px;
+        font-size: 30px;
+    }
+
+    .commercial-item:first-child .commercial-item-number span:last-child {
+        right: -15px;
+    }
+
+    .commercial-item:nth-child(3) .commercial-item-number span:last-child {
+        bottom: -32px;
+        right: -21px;
+    }
+
+    .commercial-item:last-child .commercial-item-number span:last-child {
+        bottom: -65px;
+        right: -53px;
+    }
+
+    .commercial-item-description {
+        margin-left: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .logo {
+        max-width: 36px;
+    }
+
+    .header-text, .header-phone {
+        display: none;
+    }
+
+    .header-social-sites {
+        column-gap: 25px;
+    }
+
+    .call-adaptive {
+        display: block;
+    }
+
+    .title-h2, .title-h2 span {
+        font-size: 70px;
+    }
+
+    .title-h2 span {
+        display: block;
+    }
+
+    .reasons .container {
+        padding: 47px 35px 50px;
+    }
+
+    .list-reason {
+        padding: 30px 30px;
+        font-size: 15px;
+    }
+
+    footer {
+        height: unset;
+        padding: 60px 0;
     }
 
 }
@@ -389,6 +542,10 @@
 }
 
 @media screen and (max-width: 431px) {
+
+    .main-descriptions {
+        font-size: 15px;
+    }
 
     .trust-item {
         width: 167px;
