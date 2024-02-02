@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ведущий мероприятий Александр Сербун</title>
+    <link rel="stylesheet" href="styles/animate.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/style-adaptive.css">
     <link rel="icon" href="images/logo.png" type="image/x-icon">
@@ -51,8 +52,11 @@
         </header>
 
         <main class="main">
-            <h2 class="host-event-text">Ведущий мероприятий</h2>
-            <h1 class="alexandr-serbun linear-gradient"><span class="alexandr">Александр</span> Сербун</h1>
+            <h2 id="typed-strings" class="host-event-text"><span>Ведущий мероприятий</span></h2>
+            <div class="text-typing host-event-text">
+                <span id="typed"></span>
+            </div>
+            <h1 class="alexandr-serbun linear-gradient wow animate__animated animate__zoomInUp"><span class="alexandr">Александр</span> Сербун</h1>
             <div class="main-items">
                 <div class="main-descriptions">
                     <div>Веду со вкусом!</div>
@@ -84,7 +88,7 @@
                     <h3 class="basic-hashtag linear-gradient hashtag-40fs hashtag-025 text-align-right">
                         #лучшийведущий</h3>
                 </div>
-                <div class="action">
+                <div class="action wow animate__animated animate__fadeIn">
                     <a href="https://t.me/SERBUNBY" target="_blank">
                         <button class="main-btn">Забронировать дату</button>
                     </a>
@@ -98,8 +102,8 @@
                 </div>
             </div>
             <div class="as-event-host">
-                <img class="comp" src="images/serbun_main.png" alt="Александр Сербун">
-                <img class="adapt" src="images/serbun_main-adaptive.png" alt="Александр Сербун">
+                <img class="comp wow animate__animated animate__fadeInUpBig" src="images/serbun_main.png" alt="Александр Сербун">
+                <img class="adapt wow animate__animated animate__fadeInUpBig" src="images/serbun_main-adaptive.png" alt="Александр Сербун">
 
                 <div class="main-micro">
                     <img src="images/micro-main.png" alt="Микрофон">
@@ -139,25 +143,25 @@
     <section class="list-events-continue">
         <div class="container">
             <div class="event-items">
-                <div class="event-item">
+                <div class="event-item wow animate__animated animate__pulse">
                     <h4 class="event-item-title linear-gradient">свадьбы</h4>
                     <div class="event-item-img">
                         <img src="images/events/wedding.png" alt="Свадьба">
                     </div>
                 </div>
-                <div class="event-item">
+                <div class="event-item wow animate__animated animate__pulse">
                     <h4 class="event-item-title linear-gradient">выпускные</h4>
                     <div class="event-item-img">
                         <img src="images/events/final.png" alt="Выпускной">
                     </div>
                 </div>
-                <div class="event-item">
+                <div class="event-item wow animate__animated animate__pulse">
                     <h4 class="event-item-title linear-gradient">корпоративы</h4>
                     <div class="event-item-img">
                         <img src="images/events/event.png" alt="Корпоратив">
                     </div>
                 </div>
-                <div class="event-item">
+                <div class="event-item wow animate__animated animate__pulse">
                     <h4 class="event-item-title linear-gradient">организация мероприятий</h4>
                     <div class="event-item-img">
                         <img src="images/events/organization.png" alt="Организация корпортива">
@@ -174,16 +178,16 @@
                 в качестве ведущего именно меня!</h2>
             <div class="list-reasons-items">
                 <div class="list-reason-item">
-                    <div class="list-reason">
+                    <div class="list-reason wow animate__animated animate__backInLeft">
                         Современный стиль ведения
                     </div>
-                    <div class="list-reason">
+                    <div class="list-reason wow animate__animated animate__backInLeft">
                         Актуальные развлечения
                     </div>
-                    <div class="list-reason">
+                    <div class="list-reason wow animate__animated animate__backInLeft">
                         Уместный юмор
                     </div>
-                    <div class="list-reason">
+                    <div class="list-reason wow animate__animated animate__backInLeft">
                         <div class="list-reason-text">
                             Современная подача традиций
                         </div>
@@ -191,20 +195,20 @@
                 </div>
 
                 <div class="list-reason-item">
-                    <div class="list-reason">
+                    <div class="list-reason wow animate__animated animate__backInRight">
                         Мультимедийный формат
                     </div>
-                    <div class="list-reason">
+                    <div class="list-reason wow animate__animated animate__backInRight">
                         <div class="list-reason-text">
                             Оригинальные сценарные ходы
                         </div>
                     </div>
-                    <div class="list-reason">
+                    <div class="list-reason wow animate__animated animate__backInRight">
                         <div class="list-reason-text">
                             Умение найти язык с каждым гостем
                         </div>
                     </div>
-                    <div class="list-reason">
+                    <div class="list-reason wow animate__animated animate__backInRight">
                         Свадьбы по всему миру
                     </div>
                 </div>
@@ -231,7 +235,7 @@
                     <div class="commercial-item-description">Опыт проведения подобных праздников, помноженный каждый раз
                         на стремлении сделать торжество ярким и памятным, гарантирует Вам неповторимость этого события!
                     </div>
-                    <div class="commercial-item-number">
+                    <div class="commercial-item-number wow animate__animated animate__fadeIn">
                         <span>1</span>
                         <span>
                             <img src="images/phone.png" alt="Телефон">
@@ -243,7 +247,7 @@
                     <div class="commercial-item-description">Опыт проведения подобных праздников, помноженный каждый раз
                         на стремлении сделать торжество ярким и памятным, гарантирует Вам неповторимость этого события!
                     </div>
-                    <div class="commercial-item-number">
+                    <div class="commercial-item-number wow animate__animated animate__fadeIn">
                         <span>2</span>
                         <span>
                             <img src="images/hands.png" alt="Встреча">
@@ -255,7 +259,7 @@
                     <div class="commercial-item-description">Опыт проведения подобных праздников, помноженный каждый раз
                         на стремлении сделать торжество ярким и памятным, гарантирует Вам неповторимость этого события!
                     </div>
-                    <div class="commercial-item-number">
+                    <div class="commercial-item-number wow animate__animated animate__fadeIn">
                         <span>3</span>
                         <span>
                             <img src="images/report.png" alt="Договор">
@@ -267,7 +271,7 @@
                     <div class="commercial-item-description">Опыт проведения подобных праздников, помноженный каждый раз
                         на стремлении сделать торжество ярким и памятным, гарантирует Вам неповторимость этого события!
                     </div>
-                    <div class="commercial-item-number">
+                    <div class="commercial-item-number wow animate__animated animate__fadeIn">
                         <span>4</span>
                         <span>
                             <img src="images/plot.png" alt="Сценарий">
@@ -275,7 +279,7 @@
                     </div>
                 </div>
             </div>
-            <div class="action">
+            <div class="action wow animate__animated animate__fadeIn">
                 <a href="https://t.me/SERBUNBY" target="_blank">
                     <button class="main-btn">Забронировать дату</button>
                 </a>
@@ -285,7 +289,7 @@
 
     <section class="trust">
         <div class="container">
-            <h2 class="title-h2 linear-gradient">Мне доверяют крупные компании</h2>
+            <h2 class="title-h2 linear-gradient wow animate__animated animate__fadeInUp">Мне доверяют крупные компании</h2>
             <div class="trust-items">
                 <div class="trust-item">
                     <img src="images/trust/Burger_King.png" alt="Бургер Кинг">
@@ -337,7 +341,7 @@
                 <div class="contact-item-photo">
                     <img src="images/serbun_contact.png" alt="Александр Сербун">
                 </div>
-                <div class="contact-item-common">
+                <div class="contact-item-common wow animate__animated animate__fadeInRightBig">
                     <div class="contact-social-sites">
                         <div class="contact-social-site">
                             <a href="https://www.instagram.com/alexandr_serbun/" target="_blank">
@@ -387,12 +391,14 @@
 
     </footer>
 
-    <div class="micro-big">
+    <div class="micro-big wow animate__animated animate__fadeInBottomRight">
         <img src="images/microphone-big.png" alt="Микрофон">
     </div>
 
 </div>
 
+<script src="scripts/wow.min.js"></script>
+<script src="scripts/typed.js"></script>
 <script src="scripts/script.js"></script>
 </body>
 </html>
