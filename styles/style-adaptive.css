@@ -28,6 +28,7 @@
     }
 
 }
+
 @media screen and (max-width: 1210px) {
     .serbun-reasons {
         max-width: 475px;
@@ -105,14 +106,19 @@
 
 @media screen and (max-width: 944px) {
 
-   .as-event-host {
-       left: 50%;
-       transform: translateX(-50%);
-       top: 107px;
-   }
+    .as-event-host {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 107px;
+    }
+
+    h1 {
+        line-height: unset;
+    }
+
 
     .host-event-text {
-        margin-bottom: 60px;
+        margin-bottom: 45px;
     }
 
 }
@@ -291,7 +297,7 @@
 @media screen and (max-width: 740px) {
 
     .contact-item-phone {
-       font-size: 25px;
+        font-size: 25px;
     }
 
     .main-advantages {
@@ -305,7 +311,7 @@
 @media screen and (max-width: 740px) and (min-width: 605px) {
 
     .host-event-text {
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
 
 }
@@ -520,7 +526,7 @@
     }
 
     .commercial-item-number {
-       width: 85px;
+        width: 85px;
         height: 136px;
         font-size: 30px;
     }
