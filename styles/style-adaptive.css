@@ -79,6 +79,11 @@
         line-height: 1.4;
         min-height: 52px;
     }
+
+    .contact .title-h2, .list-events .title-h2 {
+        line-height: 1.1;
+        min-height: 120px;
+    }
 }
 
 @media screen and (max-width: 996px) {
