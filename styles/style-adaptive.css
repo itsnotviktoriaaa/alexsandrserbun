@@ -618,7 +618,7 @@
 
     .host-event-text {
         text-align: center;
-        margin-bottom: -20px;
+        margin-bottom: 0;
         font-size: 40px;
     }
 
