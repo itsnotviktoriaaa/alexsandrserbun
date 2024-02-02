@@ -112,7 +112,7 @@
    }
 
     .host-event-text {
-        margin-bottom: 45px;
+        margin-bottom: 60px;
     }
 
 }
@@ -305,7 +305,7 @@
 @media screen and (max-width: 740px) and (min-width: 605px) {
 
     .host-event-text {
-        margin-bottom: 50px;
+        margin-bottom: 60px;
     }
 
 }
