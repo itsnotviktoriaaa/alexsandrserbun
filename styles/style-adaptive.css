@@ -3,7 +3,7 @@
     .micro-big {
         max-width: 230px;
         right: 0;
-        top: -252px;
+        top: -202px;
     }
 
 }
@@ -24,7 +24,7 @@
     }
 
     .micro-big {
-        top: -267px;
+        top: -197px;
     }
 
 }
@@ -42,7 +42,7 @@
     }
 
     .micro-big {
-        top: -267px;
+        top: -202px;
     }
 
 }
@@ -174,7 +174,7 @@
 @media screen and (max-width: 898px) {
 
     .micro-big {
-        top: -401px;
+        top: -381px;
     }
 
 }
@@ -271,7 +271,7 @@
     }
 
     .micro-big {
-        top: -504px;
+        top: -458px;
     }
 
 }
@@ -487,7 +487,7 @@
 
     .micro-big {
         max-width: 131px;
-        top: 176px;
+        top: 229px;
     }
 
 }
