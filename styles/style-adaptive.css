@@ -385,6 +385,14 @@
 
 @media screen and (max-width: 567px) {
 
+    .main-micro {
+        display: block;
+        position: absolute;
+        top: 54px;
+        left: -51px;
+        z-index: 1;
+    }
+
     .contact-item-photo {
         max-width: 267px;
     }
@@ -614,14 +622,6 @@
 
 @media screen and (max-width: 488px) {
 
-    .main-micro {
-        display: block;
-        position: absolute;
-        top: 218px;
-        left: -51px;
-        z-index: 1;
-    }
-
     .as-event-host {
         margin: 0 auto -34px auto;
     }
@@ -747,7 +747,7 @@
 @media screen and (max-width: 352px) {
 
     .main-micro {
-        top: 162px;
+        top: 30px;
     }
 
 }
